@@ -1,28 +1,24 @@
 # new-proj
 
-An interview to Duda- Adi Gonnen
+An interview to Duda- Adi Gonnen.
 
-## Project setup
+This proj was created with Vue-Cli.
+I got the data from api with axios in a service file.
+Then I sent the data to the components, using promises in main component and props sent to child component.
+
+## Project setup:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles:
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Load the page:
 ```
-npm run build
+A new browser window with the address: localhost:8080
+
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```

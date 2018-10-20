@@ -32,7 +32,7 @@ export default {
 
 .item-container {
     background-color: #e7e1e1;
-    border: 1px solid #000;
+    border: 1px solid #e7e1e1;
     width: 200px;
     height: 350px;
     justify-content: space-between;
