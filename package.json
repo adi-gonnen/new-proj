@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "deploy_old": "node ./node_modules/vue-gh-pages/index.js",
+    "deploy": "deploy.bat"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -21,6 +23,7 @@
     "@vue/cli-service": "^3.0.5",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
+    "vue-gh-pages": "^1.19.0",
     "vue-template-compiler": "^2.5.17"
   },
   "postcss": {
@@ -32,5 +35,6 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "homepage": "https://github.com/adi-gonnen/new-proj"
 }

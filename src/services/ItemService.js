@@ -76,7 +76,7 @@ const itemsSynch = [
     }]
 
  function loadItems() {
-    return axios.get(`http://www.omdbapi.com/?s=first&page=2&apikey=cf5f5d9f`)
+    return axios.get(`https://www.omdbapi.com/?s=first&page=2&apikey=cf5f5d9f`)
     .then(res => {
         // console.log('service:', res.data.Search);
         ITEMS = res.data.Search;
