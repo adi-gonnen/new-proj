@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="header flex">  
-      <h1>Hello</h1>
+      <h1>Online Users</h1>
       </div>
     <ItemsList/>
   </div>
@@ -23,6 +23,7 @@ export default {
 
 .home {
   font-family: 'Ubuntu', sans-serif;
+  background-color: gray;
 }
 .header {
   width: 100%;
@@ -32,6 +33,9 @@ export default {
   color: #4e4949;
   height: 80px;
   align-items: center;
-  justify-content: center;
+  // justify-content: center;
+}
+.header>h1 {
+  margin-left: 20px;
 }
 </style>
