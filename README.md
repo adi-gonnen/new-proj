@@ -20,7 +20,7 @@ npm run serve
 ```
 A new browser window with the address: localhost:8080
 or just go to git hub pages:
-
+https://adi-gonnen.github.io/new-proj/#/
 
 ```
 
